@@ -10,6 +10,11 @@ cmake ..
 cmake --build .
 ```
 
+## Running the product code
+
+```
+./bin/demo
+```
 
 ## Running the tests
 

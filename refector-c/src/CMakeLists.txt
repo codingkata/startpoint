@@ -4,6 +4,7 @@ target_sources(
     example
     PRIVATE
         example.cpp
+        demo.cpp
 	demo.cpp
     PUBLIC
         ${CMAKE_CURRENT_LIST_DIR}/example.h
@@ -14,3 +15,6 @@ target_include_directories(
     PUBLIC
         ${CMAKE_CURRENT_LIST_DIR}
     )
+
+add_executable(demo demo.cpp)
+
