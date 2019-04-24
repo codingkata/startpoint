@@ -1,2 +1,4 @@
 .DS*
 **/build*/
+**/cmake-build-debug/
+refector-c/.idea/*.*
